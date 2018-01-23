@@ -64,7 +64,7 @@ Select elements with id = "logo") */
 */
 
 #details a:link, #details a:visited {
-  color: black;
+  color: blue;
   text-decoration: none;
 }
 #details a:hover {
