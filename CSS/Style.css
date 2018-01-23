@@ -10,3 +10,14 @@ property: value;
 }
 
 */
+/* Type Selector 
+p {select all p
+
+}
+
+*/
+
+p{
+  font-size: 10px;
+  line-height: 1.5em  
+}
