@@ -72,3 +72,6 @@ Select elements with id = "logo") */
   text-decoration: underline;
 }
 
+#details a:active {
+  color: red;
+}
