@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Elsie+Swash+Caps:400,900');
+/* This is a comment!
+!
+! */
+
+/* CSS Syntax
+selector {
+property: value;
+property: value;
+property: value;
+}
+
+*/
+/* Type Selector
+p {select all p
+
+}
+
+*/
+
+p {
+  font-size: 1em;
+  line-height: 1.5em;
+  font-family:'Elsie Swash Caps', cursive;
+}
+
+figcaption {
+  /*
+  font-weight: normal;
+  font-size: 0.75em;
+  line-height: 1.5em;
+  font-family: Georgia, "New Times Roman", serif; */
+  font: normal 2.5em/2.5em Georgia, "New Times Roman", serif;
+  color: #777;
+  text-align: right;
+}
+/* Class selectors can be applied ot as many elements as we like.
+Type is 1 type of element.
+Class can be added to elements of different types.
+*/
+.milk-text {
+  font: bold 2.6em 'Elsie Swash Caps', cursive;
+  color: white;
+  text-shadow: 0 2px 3px black;
+}
+
+/* id selector (only apply to 1 unique element per page.
+Select elements with id = "logo") */
+#logo {
+  background-color: blue
+}
+
+/* descendant selector */
+
+#logo h1 { /* only style H1s if they are in side the id = logo"*/
+  font-family: 'Georgia', "New Times Roman";
+}
+
+#logo h2{
+  font-family: Arial;
+}
+
+/* pseudo-class selectors - select element based on event state
+*/
+
+#details a:link, #details a:visited {
+  color: blue;
+  text-decoration: none;
+}
+#details a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+#details a:active {
+  color: red;
+}
