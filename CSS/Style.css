@@ -10,7 +10,7 @@ property: value;
 }
 
 */
-/* Type Selector 
+/* Type Selector
 p {select all p
 
 }
@@ -18,6 +18,6 @@ p {select all p
 */
 
 p{
-  font-size: 10px;
+  font-size: 15px;
   line-height: 1.5em  
 }
