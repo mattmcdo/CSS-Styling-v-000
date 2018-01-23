@@ -21,7 +21,7 @@ p {select all p
 p {
   font-size: 1em;
   line-height: 1.5em;
-  font-family:'Elsie Swash Caps', cursive; 
+  font-family:'Elsie Swash Caps', cursive;
 }
 
 figcaption {
@@ -34,8 +34,8 @@ figcaption {
   color: #777;
   text-align: right;
 }
-/* Class selectors can be applied ot as many elements as we like. 
-Type is 1 type of element. 
+/* Class selectors can be applied ot as many elements as we like.
+Type is 1 type of element.
 Class can be added to elements of different types.
 */
 .milk text {
