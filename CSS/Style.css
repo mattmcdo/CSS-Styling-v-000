@@ -21,6 +21,7 @@ p {select all p
 p {
   font-size: 1em;
   line-height: 1.5em;
+  font: 'Elsie Swash Caps', cursive; 
 }
 
 figcaption {
