@@ -49,3 +49,13 @@ Select elements with id = "logo") */
 #logo {
   background-color: blue
 }
+
+/* descendant selector */
+
+#logo h1 { /* only style H1s if they are in side the id = logo"*/
+  font-family: 'Georgia', "New Times Roman";
+}
+
+#logo h2{
+  font-family: serif;
+}
