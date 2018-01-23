@@ -47,5 +47,5 @@ Class can be added to elements of different types.
 /* id selector (only apply to 1 unique element per page.
 Select elements with id = "logo") */
 #logo {
-  
+  background-color: blue
 }
